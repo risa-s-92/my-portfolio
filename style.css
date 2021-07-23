@@ -1,0 +1,11 @@
+header {
+  　width: 100%;
+  background-color: purple;
+  color: white;
+}
+
+.aboutme-container {
+  width: 90%;
+  display: flex;
+  padding: 3rem 0 0;
+}
