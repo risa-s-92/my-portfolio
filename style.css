@@ -1,11 +1,42 @@
 header {
-  　width: 100%;
+  width: 100%;
   background-color: purple;
   color: white;
 }
 
+.header-container {
+  height: 4rem;
+}
+
 .aboutme-container {
-  width: 90%;
+  background-color: #fff0f5;
+  width: 100%;
   display: flex;
   padding: 3rem 0 0;
+}
+
+.aboutme-title {
+  font-size: 4em;
+}
+
+.aboutme-details {
+  text-align: center;
+  display: block;
+}
+
+.aboutme-q-and-a {
+  margin-top: 4rem;
+}
+
+.aboutme-question {
+  border-bottom: 0.1rem solid black;
+}
+
+.gallery-container {
+  text-align: center;
+  background-color: #f5fffa;
+}
+
+.gallery-slides img {
+  width: 40%;
 }
